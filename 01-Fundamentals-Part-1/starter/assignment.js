@@ -17,15 +17,15 @@
 // let johnWeight = 92
 // let johnHeight = 1.95
 
-let markWeight = 95
-let markHeight = 1.88
-let johnWeight = 85
-let johnHeight = 1.76
+// let markWeight = 95
+// let markHeight = 1.88
+// let johnWeight = 85
+// let johnHeight = 1.76
 
-let markBMI = markWeight / markHeight ** 2;
-let johnBMI = johnWeight / johnHeight ** 2;
-let markHIgherBMI = markBMI > johnBMI
+// let markBMI = markWeight / markHeight ** 2;
+// let johnBMI = johnWeight / johnHeight ** 2;
+// let markHIgherBMI = markBMI > johnBMI
 
-console.log(markBMI, johnBMI, markHIgherBMI);
+// console.log(markBMI, johnBMI, markHIgherBMI);
 
 
