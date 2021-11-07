@@ -21,5 +21,6 @@ let markBMI = markW / markH ** 2;
 let johnBMI = johnW / johnH ** 2;
 let markHIgherBMI = markBMI > johnBMI
 
-console.log(markW)
+console.log(markBMI, johnBMI, markHIgherBMI);
+
 
