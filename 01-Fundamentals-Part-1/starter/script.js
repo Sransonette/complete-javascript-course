@@ -103,24 +103,46 @@
 // const averageAge = (ageJonas + ageSarah) / 2
 // console.log(ageJonas, ageSarah, averageAge)
 
-const firstName = "Sean"
-const job = "Software Engineer"
-const birthYear = "1990"
-const year = 2037
+// const firstName = "Sean"
+// const job = "Software Engineer"
+// const birthYear = "1990"
+// const year = 2037
 
-const Sean = "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+// const Sean = "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
 
-console.log(Sean)
+// console.log(Sean)
 
-const seanNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
-console.log(seanNew)
+// const seanNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
+// console.log(seanNew)
 
-console.log(`regular string`)
+// console.log(`regular string`)
 
-console.log('String with \n\
-multiple \n\
-lines')
+// console.log('String with \n\
+// multiple \n\
+// lines')
 
-console.log(`String
-with
-multiple lines`)
+// console.log(`String
+// with
+// multiple lines`)
+
+let age = 15;
+
+
+if (age >= 18) {
+    console.log("Sarah can start driving")
+} else {
+    let yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years`)
+}
+
+let birthYear = 1991;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century)
+
+
