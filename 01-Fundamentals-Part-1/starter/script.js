@@ -125,24 +125,36 @@
 // with
 // multiple lines`)
 
-let age = 15;
+// let age = 15;
 
 
-if (age >= 18) {
-    console.log("Sarah can start driving")
-} else {
-    let yearsLeft = 18 - age;
-    console.log(`Sarah is too young. Wait another ${yearsLeft} years`)
-}
+// if (age >= 18) {
+//     console.log("Sarah can start driving")
+// } else {
+//     let yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years`)
+// }
 
-let birthYear = 1991;
+// let birthYear = 1991;
 
-let century;
-if (birthYear <= 2000) {
-    century = 20;
-} else {
-    century = 21;
-}
-console.log(century)
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+// console.log(century)
 
+//type conversion
+let inputYear = "1991";
+console.log(Number(inputYear))
+console.log(Number(inputYear) + 18)
+console.log(Number("Sean"))
+console.log(typeof NaN)
+console.log(String(23), 23)
+
+//type coercion
+console.log('I am' + 23 + 'years old')
+console.log('23' - '10' - 3)
+console.log('23' / '2')
 
