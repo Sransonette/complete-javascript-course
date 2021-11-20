@@ -160,22 +160,44 @@
 
 // 5 falsy values: 0, '', undefined, null, NaN
 
-console.log(Boolean(0))
-console.log(Boolean(undefined))
-console.log(Boolean('Sean'))
-console.log(Boolean(''))
+// console.log(Boolean(0))
+// console.log(Boolean(undefined))
+// console.log(Boolean('Sean'))
+// console.log(Boolean(''))
 
-let money = 100;
+// let money = 100;
 
-if (money) {
-    console.log("Don't spend it all")
+// if (money) {
+//     console.log("Don't spend it all")
+// } else {
+//     console.log('You should get a job')
+// }
+
+// let height = 0;
+// if (height >= 0) {
+//     console.log('YAY! Height is defined')
+// } else {
+//     console.log('Height is UNDEFINED')
+// }
+
+// let age = '18';
+
+// if (age === 18) console.log('You an adult')
+
+// if (age == 18) console.log('You an adult (loose)')
+
+let favorite = Number(prompt("What's your favorite number?"))
+console.log(favorite)
+console.log(typeof favorite)
+
+if (favorite === 23) {
+    console.log("Cool 23 is good")
+} else if (favorite === 7) {
+    console.log("7 is also cool")
+} else if (favorite === 9) {
+    console.log("9 is also cool")
 } else {
-    console.log('You should get a job')
+    console.log('Number is not 23 or 7 so it is lame')
 }
 
-let height = 0;
-if (height >= 0) {
-    console.log('YAY! Height is defined')
-} else {
-    console.log('Height is UNDEFINED')
-}
+if (favorite !== 23) console.log("why not 23")
