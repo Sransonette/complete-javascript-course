@@ -267,12 +267,29 @@
 //     console.log('not a valid day')
 // }
 
-3 + 4
-1991
-true && false && !false
+// 3 + 4
+// 1991
+// true && false && !false
 
-if (23 > 10) {
-    let str = '23 is bigger'
+// if (23 > 10) {
+//     let str = '23 is bigger'
+// }
+
+// console.log(`I'm ${2037 - 1991} years old`)
+
+let age = 17;
+// age >= 18 ? console.log("I like to drink wine") : console.log("I like to drink water")
+
+let drink = age >= 18 ? 'wine' : 'water'
+console.log(drink)
+
+let drink2;
+if (age >= 18) {
+    drink2 = "wine"
+} else {
+    drink2 = 'water'
 }
+console.log(drink2)
 
-console.log(`I'm ${2037 - 1991} years old`)
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`)
+
