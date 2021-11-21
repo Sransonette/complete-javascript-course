@@ -202,27 +202,27 @@
 
 // if (favorite !== 23) console.log("why not 23")
 
-age = 16;
+// age = 16;
 
-let hasDriversLicense = true;
-let hasGoodVision = true;
+// let hasDriversLicense = true;
+// let hasGoodVision = true;
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-// if (hasDriversLicense && hasGoodVision) {
+// // if (hasDriversLicense && hasGoodVision) {
+// //     console.log("Sarah is able to drive")
+// // } else {
+// //     console.log("someone else should drive")
+// // }
+
+// let isTired = false;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
 //     console.log("Sarah is able to drive")
 // } else {
 //     console.log("someone else should drive")
 // }
-
-let isTired = false;
-console.log(hasDriversLicense && hasGoodVision && isTired);
-
-if (hasDriversLicense && hasGoodVision && !isTired) {
-    console.log("Sarah is able to drive")
-} else {
-    console.log("someone else should drive")
-}
 
