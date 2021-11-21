@@ -42,13 +42,13 @@
 //     console.log(`John BMI is ${johnBmiDiff} higher than Mark`)
 // }
 
-let dolphinsAvg = (200 + 108 + 198) / 3
-let koalasAvg = (200 + 108 + 198) / 3
+// let dolphinsAvg = (200 + 108 + 198) / 3
+// let koalasAvg = (200 + 108 + 198) / 3
 
-if (dolphinsAvg < 100 && koalasAvg < 100 || dolphinsAvg === koalasAvg) {
-    console.log("DRAW")
-} else if (dolphinsAvg > koalasAvg) {
-    console.log("Dolphins Win!")
-} else {
-    console.log("Koalas Win")
-}
+// if (dolphinsAvg < 100 && koalasAvg < 100 || dolphinsAvg === koalasAvg) {
+//     console.log("DRAW")
+// } else if (dolphinsAvg > koalasAvg) {
+//     console.log("Dolphins Win!")
+// } else {
+//     console.log("Koalas Win")
+// }
