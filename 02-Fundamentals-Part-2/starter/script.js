@@ -51,22 +51,39 @@
 //     return 2037 - birthYear
 // }
 
-let calcAge3 = birthYear => 2037 - birthYear
+// let calcAge3 = birthYear => 2037 - birthYear
 
-let age3 = calcAge3(1991)
-console.log(age3)
+// let age3 = calcAge3(1991)
+// console.log(age3)
 
-let yearsUntilRetirement = (birthYear, firstName) => {
-    let age = 2037 - birthYear;
-    let retirement = 65 - age;
-    // return retirement
-    return `${firstName} retires in ${retirement} years`
+// let yearsUntilRetirement = (birthYear, firstName) => {
+//     let age = 2037 - birthYear;
+//     let retirement = 65 - age;
+//     // return retirement
+//     return `${firstName} retires in ${retirement} years`
 
+// }
+
+// // yearsUntilRetirement(1991)
+
+// // console.log(yearsUntilRetirement(1991))
+
+// console.log(yearsUntilRetirement(1991, "Sean"))
+// console.log(yearsUntilRetirement(1990, 'Christy'))
+
+function cutFruitPieces(fruit) {
+    return fruit * 3
 }
 
-// yearsUntilRetirement(1991)
+function fruitProcessor(apples, oranges) {
 
-// console.log(yearsUntilRetirement(1991))
+    let applePieces = cutFruitPieces(apples)
+    let orangePieces = cutFruitPieces(oranges)
+    let juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`;
+    return juice
+}
 
-console.log(yearsUntilRetirement(1991, "Sean"))
-console.log(yearsUntilRetirement(1990, 'Christy'))
+console.log(fruitProcessor(2, 3));
+
+
+
