@@ -31,19 +31,42 @@
 // console.log(appleOrangeJuice)
 
 // function declaration
-function calcAge1(birthYear) {
+// function calcAge1(birthYear) {
 
-    return 2037 - birthYear
+//     return 2037 - birthYear
+// }
+
+// let age1 = calcAge1(1990)
+
+// // function expression
+// let calcAge2 = function (birthYear) {
+//     return 2037 - birthYear
+// }
+
+// let age2 = calcAge2(1990)
+
+// console.log(age1, age2)
+
+// let calcAge2 = function (birthYear) {
+//     return 2037 - birthYear
+// }
+
+let calcAge3 = birthYear => 2037 - birthYear
+
+let age3 = calcAge3(1991)
+console.log(age3)
+
+let yearsUntilRetirement = (birthYear, firstName) => {
+    let age = 2037 - birthYear;
+    let retirement = 65 - age;
+    // return retirement
+    return `${firstName} retires in ${retirement} years`
+
 }
 
-let age1 = calcAge1(1990)
+// yearsUntilRetirement(1991)
 
-// function expression
-let calcAge2 = function (birthYear) {
-    return 2037 - birthYear
-}
+// console.log(yearsUntilRetirement(1991))
 
-let age2 = calcAge2(1990)
-
-console.log(age1, age2)
-
+console.log(yearsUntilRetirement(1991, "Sean"))
+console.log(yearsUntilRetirement(1990, 'Christy'))
