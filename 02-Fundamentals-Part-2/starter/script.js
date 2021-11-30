@@ -71,19 +71,44 @@
 // console.log(yearsUntilRetirement(1991, "Sean"))
 // console.log(yearsUntilRetirement(1990, 'Christy'))
 
-function cutFruitPieces(fruit) {
-    return fruit * 3
+// function cutFruitPieces(fruit) {
+//     return fruit * 3
+// }
+
+// function fruitProcessor(apples, oranges) {
+
+//     let applePieces = cutFruitPieces(apples)
+//     let orangePieces = cutFruitPieces(oranges)
+//     let juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`;
+//     return juice
+// }
+
+// console.log(fruitProcessor(2, 3));
+
+// function cutFruitPieces
+
+// function fruitProcessor(apples, oranges) {
+//     let juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+//     return juice
+// }
+
+let calcAge = function (birthYear) {
+    return 2037 - birthYear;
 }
 
-function fruitProcessor(apples, oranges) {
+let yearsUntilRetirement = function (birthYear, firstName) {
+    let age = calcAge(birthYear)
+    let retirement = 65 - age;
 
-    let applePieces = cutFruitPieces(apples)
-    let orangePieces = cutFruitPieces(oranges)
-    let juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`;
-    return juice
+    if (retirement > 0) {
+        console.log(`${firstName} retires in ${retirement} years`)
+        return retirement
+    } else {
+        console.log(`${firstName} has already retired`)
+        return -1
+    }
 }
 
-console.log(fruitProcessor(2, 3));
-
-
+console.log(yearsUntilRetirement(1990, 'Sean'))
+console.log(yearsUntilRetirement(1950, 'Mike'))
 
