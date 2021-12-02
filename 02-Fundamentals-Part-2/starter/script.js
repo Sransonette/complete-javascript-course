@@ -115,21 +115,58 @@
 // console.log(yearsUntilRetirement(1950, 'Mike'))
 
 
-let calcAvg = (a, b, c) => (a + b + c) / 3
+// let calcAvg = (a, b, c) => (a + b + c) / 3
 
-let avgDolphins = calcAvg(1000, 10000, 10000);
-let avgKoalas = calcAvg(7, 4, 6);
+// let avgDolphins = calcAvg(1000, 10000, 10000);
+// let avgKoalas = calcAvg(7, 4, 6);
 
-let checkWinner = function (avgDolphins, avgKoalas) {
-    if (avgDolphins > avgKoalas * 2 || avgKoalas > avgDolphins * 2) {
-        if (avgDolphins > avgKoalas) {
-            console.log(`Dolphins win! (${avgDolphins} vs. ${avgKoalas})`)
-        } else {
-            console.log(`Koalas win! (${avgKoalas} vs. ${avgDolphins})`)
-        }
-    } else {
-        console.log("no one wins")
-    }
+// let checkWinner = function (avgDolphins, avgKoalas) {
+//     if (avgDolphins > avgKoalas * 2 || avgKoalas > avgDolphins * 2) {
+//         if (avgDolphins > avgKoalas) {
+//             console.log(`Dolphins win! (${avgDolphins} vs. ${avgKoalas})`)
+//         } else {
+//             console.log(`Koalas win! (${avgKoalas} vs. ${avgDolphins})`)
+//         }
+//     } else {
+//         console.log("no one wins")
+//     }
+// }
+
+// console.log(checkWinner(avgDolphins, avgKoalas))
+
+let friend1 = "Michael";
+let frined2 = "Steven";
+let friend3 = "Peter";
+
+let friends = ['Michael', 'Steven', 'Peter']
+
+console.log(friends)
+
+let y = new Array(1991, 1984, 2008, 2020)
+
+console.log(friends[0])
+console.log(friends[2])
+
+console.log(friends.length);
+console.log(friends[friends.length - 1])
+
+friends[2] = 'Jay';
+console.log(friends)
+
+let firstName = 'Sean'
+let Sean = [firstName, 'Ransonette', 2037 - 1990, 'Software Engineer', friends];
+console.log(Sean)
+
+//Exercise
+let calcAge = function (birthYear) {
+    return 2037 - birthYear
 }
 
-console.log(checkWinner(avgDolphins, avgKoalas))
+let years = [1990, 1967, 2002, 2010, 2018]
+
+let age1 = calcAge(years[0])
+let age2 = calcAge(years[1])
+let age3 = calcAge(years[years.length - 1])
+console.log(age1, age2, age3)
+let ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])]
+console.log(ages)
